@@ -1,8 +1,29 @@
-img {
+ img {
   display: block;
   margin: 0 auto 15px auto;
 }
 
 p.bg-info {
   font-size: 1.25em;
+}
+
+.packages {
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.packages ul li {
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+.packages {
+    margin: 5px;
+  }
+}
+
+@media (max-width: 992px) {
+  .packages {
+    margin: 5px;
+  }
 }
